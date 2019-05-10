@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SeverletA</servlet-name>
+    <servlet-class>severlet.SeverletA</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SeverletB</servlet-name>
+    <servlet-class>severlet.SeverletB</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SeverletC</servlet-name>
+    <servlet-class>severlet.SeverletC</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CookieSeverlet</servlet-name>
+    <servlet-class>severlet.CookieSeverlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReadCookieServlet</servlet-name>
+    <servlet-class>severlet.ReadCookieServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>SeverletA</servlet-name>
+    <url-pattern>/SeverletA</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SeverletB</servlet-name>
+    <url-pattern>/SeverletB</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SeverletC</servlet-name>
+    <url-pattern>/SeverletC</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CookieSeverlet</servlet-name>
+    <url-pattern>/servlet/CookieSeverlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReadCookieServlet</servlet-name>
+    <url-pattern>/servlet/ReadCookieServlet</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
